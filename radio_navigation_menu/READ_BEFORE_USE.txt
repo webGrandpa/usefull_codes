@@ -1,0 +1,57 @@
+Code Description: Animated Navigation Menu
+This code snippet creates a visually engaging and easy-to-use animated navigation menu, perfect for integration into websites. It encompasses a header containing a site title and a series of navigation links. This dynamic menu enhances user experience with animated effects, making it interactive and visually appealing.
+
+Key Features:
+HTML Structure:
+
+The HTML begins with a standard template that includes the essential document structure (<!DOCTYPE html>, <html>, <head>, and <body> tags).
+Inside the <header>, there’s an <h1> element for the website title ("HEADER OF WEBSITE") and a navigation section (<nav>) featuring a list of links that navigate to different sections (e.g., "title 1", "title 2", "title 3").
+CSS Styling:
+
+Reset Styles: The universal selector (*) is used to eliminate default margins and paddings, ensuring a consistent starting point for styling.
+Flexbox Layout: The body is styled using Flexbox to center the header both vertically and horizontally, providing a clean and balanced design.
+Header Design: The header uses Flexbox to align its contents, including a prominent heading and navigation menu, spaced effectively.
+Responsive and Interactive Navigation:
+
+The navigation menu is constructed with an unordered list (<ul>), with each item represented as a list (<li>) containing clickable anchor (<a>) elements.
+The anchor tags are styled with a large font size and distinct color, along with hover effects that enhance usability.
+Animation Effects:
+
+Each navigation link utilizes a pseudo-element (::after) to create an animated underline effect. When a link is hovered over, the underline transitions smoothly, enhancing the interactive experience.
+The animated underline changes color and position when the link is targeted (clicked), providing clear feedback to the user.
+Copy-and-Paste Ready: The code is provided in a clean format for easy copy-and-paste integration into any web project, making it a versatile option for developers looking for dynamic navigation solutions.
+
+Commercial Use: If this code is used in a commercial context, the user agrees to pay the creator 1% of the revenue generated from the implementation of this code.
+
+Usage:
+To implement this navigation menu in your project, simply copy the provided HTML and CSS code into your own files. Modify the titles and links to fit your content needs. The animated effects will automatically enhance user interaction, providing a sleek and professional appearance to your website.
+
+Описание кода: Анимированное меню навигации
+Этот фрагмент кода создает визуально привлекательное и легкое в использовании анимированное меню навигации, идеально подходящее для интеграции в веб-сайты. Он включает заголовок с названием сайта и серию навигационных ссылок. Это динамическое меню улучшает пользовательский опыт с анимационными эффектами, делая его интерактивным и визуально привлекательным.
+
+Ключевые особенности:
+Структура HTML:
+
+HTML начинается с стандартного шаблона, который включает в себя основную структуру документа (<!DOCTYPE html>, <html>, <head> и <body>).
+Внутри <header> расположен элемент <h1> для заголовка сайта ("HEADER OF WEBSITE") и секция навигации (<nav>), в которой находится список ссылок, ведущих к различным разделам (например, "title 1", "title 2", "title 3").
+Стилизация CSS:
+
+Сброс стилей: Универсальный селектор (*) используется для устранения значений по умолчанию у полей и отступов, что обеспечивает единообразие начального уровня стилизации.
+Макет Flexbox: Тело страницы оформлено с использованием Flexbox для выравнивания заголовка как по вертикали, так и по горизонту, что создает чистый и сбалансированный дизайн.
+Дизайн заголовка: Заголовок использует Flexbox для выравнивания своих содержимого, включая заметный заголовок и навигационное меню, эффективно распределенное по пространству.
+Адаптивная и интерактивная навигация:
+
+Навигационное меню состоит из неупорядоченного списка (<ul>), в котором каждый элемент представлен в виде списка (<li>) с кликабельными якорными (<a>) элементами.
+Якорные теги стилизованы с крупным размером шрифта и ярким цветом, дополнительно с эффектами наведения, которые улучшают удобство использования.
+Анимационные эффекты:
+
+Каждая навигационная ссылка использует псевдоэлемент (::after), чтобы создать анимированный эффект подчеркивания. При наведении курсора на ссылку подчеркивание плавно меняется, улучшая интерактивный опыт.
+Анимированное подчеркивание меняет цвет и положение, когда ссылка выбрана (кликнута), обеспечивая четкую обратную связь для пользователя.
+Готово к копированию и вставке: Код предоставлен в чистом формате для легкой интеграции в любой веб-проект, что делает его универсальным вариантом для разработчиков, ищущих динамичные решения для навигации.
+
+Коммерческое использование: Если этот код используется в коммерческом контексте, пользователь обязуется выплачивать создателю 1% от доходов, сгенерированных благодаря использованию данного кода.
+
+Использование:
+Чтобы реализовать это навигационное меню в своем проекте, просто скопируйте предоставленный HTML и CSS код в ваши собственные файлы. Измените названия и ссылки в соответствии с вашими потребностями контента. Анимированные эффекты автоматически улучшат взаимодействие пользователя, придавая вашему сайту стильный и профессиональный вид.
+
+Feel free to let me know if there are any further modifications or additional requests!
