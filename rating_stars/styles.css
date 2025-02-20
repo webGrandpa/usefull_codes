@@ -9,11 +9,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-.chairs:hover{
-    transform:scale3d(1.01,1.01,1.01);
-    box-shadow: 5px 5px 15px 5px #00000014;
+h1{
+    margin-bottom: 60px;
+    font-size: 36px;
+    font-weight: 800;
 }
 .star-rating {  
     direction: rtl;
