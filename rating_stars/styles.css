@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chairs:hover{
+    transform:scale3d(1.01,1.01,1.01);
+    box-shadow: 5px 5px 15px 5px #00000014;
+}
+.star-rating {  
+    direction: rtl;
+    display: inline-block;  
+}  
+
+.star-rating input {  
+    display: none;
+    
+}  
+
+.star-rating label {  
+    font-size: 50px;  /* size you can adjust if needed */
+    color: #c6c6c0;
+    cursor: pointer;  
+}  
+
+.star-rating input:checked ~ label {  
+    color: #fbc501;
+}  
+
+.star-rating label:hover,  
+.star-rating label:hover ~ label,  
+.star-rating input:checked ~ label:hover {  
+    color: #fbc501;
+    transform: scale(1.2);
+}
