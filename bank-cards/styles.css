@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow cards to wrap */
+}
+.visa-card {
+    width: 349px;
+    height: 215.26px;
+    border-radius: 14px;
+    position: relative; /* Change to relative to allow stacking */
+    box-shadow: -2px 2px 73px -14px;
+    opacity: 1; /* Set opacity to 1 for visibility */
+    margin: 20px; /* Add margin to create space between cards */
+}
+/* differences of cards */
+.card-1-assembled {
+    background-color: #000000;
+}
+.card-2-assembled {
+    background-color: #27BB86;
+    overflow: hidden;
+}
+.card-3-assembled {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.frame-text {
+    position: absolute;
+    font-family: sans-serif;
+    color: #fff;
+}
+/* positioning and styles of cards */
+.card-1-assembled .kavholm {
+    right: 0;
+    margin-right: 23px;
+    margin-top: 27px;
+    letter-spacing: .8px;
+    font-size: 18px;
+}
+.card-1-assembled .visa-balls {
+    position: absolute;
+    bottom: 16.3px;
+    right: 13.5px;
+}
+.card-1-assembled .commercial {
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    bottom: 74px;
+    right: 14px;
+    font-size: 12px;
+}
+.card-1-assembled .jane-diaz {
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    bottom: 26px;
+    left: 28px;
+    font-size: 12px;
+}
+
+/* typewriter animation on black card */
+.kavholm::before,
+.kavholm::after,
+.commercial::before,
+.commercial::after,
+.jane-diaz::before,
+.jane-diaz::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.frame-text::before {
+    background: #000000;
+    animation: typing-text 4s steps(10) infinite;
+}
+.frame-text::after {
+    width: 1px;
+    background: white;
+    animation:
+        typing-text 4s steps(10) infinite,
+        writing 900ms steps(10) infinite;
+}
+@keyframes typing-text {  
+    to {  
+        left: 100%;  
+    }  
+}  
+@keyframes writing {  
+    0%, 99.9% {  
+        background: white;  
+    }  
+    100% {  
+        background: transparent;  
+    }  
+}
+/* styles and positions of green card */
+.card-2-assembled .rocket-rides {
+    position: absolute;
+    right: 0;
+    margin-right: 28px;
+    margin-top: 27px;
+}
+.card-2-assembled .visa-text {
+    position: absolute;
+    bottom: 16.3px;
+    right: 13.5px;
+}
+.card-2-assembled .commercial {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    bottom: 74px;
+    right: 12px;
+    color: #fff;
+    font-size: 12px;
+}
+.card-2-assembled .lucian {
+    position: absolute;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    bottom: 26px;
+    left: 28px;
+    color: #fff;
+    font-size: 12px;
+}
+.card-3-assembled .powdur {
+    position: absolute;
+    right: 0;
+    margin-right: 28px;
+    margin-top: 27px;
+}
+.card-3-assembled .visa-text-black {
+    position: absolute;
+    bottom: 16.3px;
+    right: 13.5px;
+}
+.card-3-assembled .namara {
+    position: absolute;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    bottom: 26px;
+    left: 28px;
+    color: #000000;
+    font-size: 12px;
+}
+/* waves animation of green card */
+.waves-animation {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #015871;
+}
+.wave {
+    background: url(./assets/wave.png) repeat-x;
+    position: absolute;
+    width: 64000px;
+    height: 198px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    opacity: 1;
+}
+.wave1 {
+    top: -198px;
+}
+.wave2 {
+    top: -188px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite;
+    opacity: 1;
+}
+.wave3 {
+    top: -178px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.25s infinite;
+}
+.wave4 {
+    top: -168px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.375s infinite;
+}
+.wave5 {
+    top: -158px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.50s infinite;
+}
+.wave6 {
+    top: -148px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.625s infinite;
+}
+.wave7 {
+    top: -138px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.75s infinite;
+}
+.wave8 {
+    top: -128px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.875s infinite;
+}
+.wave9 {
+    top: -118px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -1s infinite;
+}
+.wave10 {
+    top: -108px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -1.125s infinite;
+}
+.wave11 {
+    top: -100px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -1.25s infinite;
+    opacity: 1;
+}
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -1400px;
+    }
+}
+/* ball morphing animations of white card */
+.ball {
+    overflow: hidden;
+    position: absolute;
+    top: -29px;
+    left: -29px;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    background-color: #93d0b2af;
+    background-size: cover;
+    background-position: center;
+    animation: morph 2.75s linear infinite;
+}
+.ball-1 {
+    top: -29px;
+    left: -29px;
+    width: 165px;
+    height: 175px;
+}
+.ball-2 {
+    top: 10px;
+    left: 311px;
+    height: 150px;
+    width: 150px;
+    animation-delay: .5s;
+}
+.ball-3 {
+    top: 181px;
+    left: 139px;
+    height: 80px;
+    width: 80px;
+    animation-delay: 1.5s;
+}
+.ball-4 {
+    top: 27px;
+    left: 106px;
+    width: 90px;
+    height: 100px;
+    animation-delay: 2s;
+}
+@keyframes morph {
+    0%,
+    100% {
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33% {
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+    66% {
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+}
+@media (max-width: 379px) {  
+    .container {
+        position: relative;
+        top: 700px;
+        left: -360px;
+    }  
+}
